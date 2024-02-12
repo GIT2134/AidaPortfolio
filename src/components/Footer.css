@@ -1,0 +1,149 @@
+.footercontainer {
+  background: linear-gradient(90deg, rgb(2, 5, 45) 0%, rgb(4, 54, 41) 100%);
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footersubs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 24px;
+  color: rgb(0, 255, 174);
+}
+
+.footersubs > p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.footersubshead {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.footersubstext {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.footerinput {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid blue;
+}
+
+.footerlinks {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerlinkwrapper {
+  display: flex;
+}
+
+.footerlinkitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+  text-align: left;
+  width: 500px;
+  box-sizing: border-box;
+}
+
+.footerlinkitems h2 {
+  margin-bottom: 16px;
+}
+
+.footerlinkitems > h2 {
+  color: rgb(29, 171, 197);
+}
+
+.footerlinkitems a {
+  color: rgb(45, 182, 107);
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footerlinkitems a:hover {
+  color: rgb(194, 30, 180);
+  transition: 0.3s ease-out;
+}
+
+.footerinput::placeholder {
+  color: gray;
+}
+
+.sociconlink {
+  color: rgb(171, 24, 73);
+  font-size: 24px;
+}
+
+.mediaicons {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.mediaiconwrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.soicons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.medialogo {
+  color: rgb(92, 43, 198);
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+.webrights {
+  color: white;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 820px) {
+  .footerlinks {
+    padding-top: 2rem;
+  }
+
+  .footerinput {
+    width: 100%;
+  }
+
+  .footerlinkwrapper {
+    flex-direction: column;
+  }
+  .mediaiconwrap {
+    flex-direction: column;
+  }
+}

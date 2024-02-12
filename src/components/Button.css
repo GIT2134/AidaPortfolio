@@ -1,0 +1,43 @@
+:root {
+  --main: #53a777;
+}
+
+.buttons {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button--main {
+  background-color: var(--main);
+  color: #242424;
+  border: 1px solid var(--main);
+}
+
+.button--visible {
+  background-color: transparent;
+  color: #87b587;
+  padding: 8px 20px;
+  border: 1px solid var(--main);
+  transition: all 0.3s ease-out;
+}
+
+.button--med {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.button--big {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.button--big:hover,
+.button--med:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
