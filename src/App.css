@@ -33,7 +33,7 @@ h2 {
 }
 
 .education {
-  background-image: url("/public/images/ed.png");
+  background-image: url("assets/images/ed.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ h2 {
 }
 
 .projects {
-  background-image: url("/public/images/backg.png");
+  background-image: url("assets/images/backg.png");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ h2 {
 }
 
 .skills {
-  background-image: url("/public/images/imgskills.png");
+  background-image: url("assets/images/imgskills.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
