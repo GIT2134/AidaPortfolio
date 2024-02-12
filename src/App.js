@@ -15,6 +15,9 @@ function App() {
         <Menubar />
         <Routes>
           <Route path="/" exact Component={Home} />
+          <Content />
+          <Sections />
+          <Footer />
           <Route path="/aboutme" Component={Aboutme} />
           <Route path="/education" Component={Education} />
           <Route path="/projects" Component={Projects} />
