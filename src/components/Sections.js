@@ -11,7 +11,7 @@ function Sections() {
           <div className="sectionswrapper">
             <ul className="sectionsitems">
               <SectionItem
-                src="./assets/images/Android.png"
+                src="images/Android.png"
                 text="Java-Based Android Application Design"
                 text2=" Designed and tested a Java-based Android app for water
                 quality monitoring"
