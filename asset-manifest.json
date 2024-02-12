@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Aidaportfolio/static/css/main.57f5fad8.css",
-    "main.js": "/Aidaportfolio/static/js/main.4aa7c469.js",
+    "main.js": "/Aidaportfolio/static/js/main.b95aef8e.js",
     "static/media/backgg.png": "/Aidaportfolio/static/media/backgg.ac8c5e3413b6447aa20b.png",
     "static/media/ed.png": "/Aidaportfolio/static/media/ed.82e3136fa75b16caf940.png",
     "static/media/imgskills.png": "/Aidaportfolio/static/media/imgskills.ab740fb539b9c764578f.png",
     "static/media/backg.png": "/Aidaportfolio/static/media/backg.22f1287a067e1cc507df.png",
     "index.html": "/Aidaportfolio/index.html",
     "main.57f5fad8.css.map": "/Aidaportfolio/static/css/main.57f5fad8.css.map",
-    "main.4aa7c469.js.map": "/Aidaportfolio/static/js/main.4aa7c469.js.map"
+    "main.b95aef8e.js.map": "/Aidaportfolio/static/js/main.b95aef8e.js.map"
   },
   "entrypoints": [
     "static/css/main.57f5fad8.css",
-    "static/js/main.4aa7c469.js"
+    "static/js/main.b95aef8e.js"
   ]
 }
