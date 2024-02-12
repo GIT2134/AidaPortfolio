@@ -5,6 +5,10 @@ import { FiFolder } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
 import { GoCodescan } from "react-icons/go";
+import Aboutme from "./components/pages/Aboutme";
+import Education from "./components/pages/Education";
+import Projects from "./components/pages/Projects";
+import Skills from "./components/pages/Skills";
 
 function Footer() {
   return (
