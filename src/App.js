@@ -1,9 +1,9 @@
 import React from "react";
 import Menubar from "./components/Menubar";
-import Home from "./components/pages/Home";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-
+import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
 import Skills from "./components/pages/Skills";
 import Education from "./components/pages/Education";
