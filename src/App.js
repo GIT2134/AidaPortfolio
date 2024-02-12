@@ -4,10 +4,10 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import Aboutme from "./components/pages/Aboutme";
+import Education from "./components/pages/Education";
 import Projects from "./components/pages/Projects";
 import Skills from "./components/pages/Skills";
-import Education from "./components/pages/Education";
-import Aboutme from "./components/pages/Aboutme";
 
 function App() {
   return (
