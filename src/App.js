@@ -16,10 +16,11 @@ function App() {
     <>
       <Router>
         <Menubar />
-        <Content />
-        <Sections />
-        <Footer />
+
         <Routes>
+          <Route path="/" Component={Content} />
+          <Route path="/" Component={Sections} />
+          <Route path="/" Component={Footer} />
           <Route path="/aboutme" Component={Aboutme} />
           <Route path="/education" Component={Education} />
           <Route path="/projects" Component={Projects} />
